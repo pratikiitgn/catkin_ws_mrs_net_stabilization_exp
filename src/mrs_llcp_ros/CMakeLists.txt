@@ -1,0 +1,48 @@
+cmake_minimum_required(VERSION 3.1.2)
+project(mrs_llcp_ros)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_definitions(-DLLCP_LITTLE_ENDIAN)
+
+find_package(Eigen3 REQUIRED)
+set(Eigen_INCLUDE_DIRS ${EIGEN3_INCLUDE_DIRS})
+set(Eigen_LIBRARIES ${Eigen_LIBRARIES})
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  cmake_modules
+  nodelet
+  mrs_msgs
+  std_msgs
+  mrs_lib
+  )
+
+
+catkin_package(
+  INCLUDE_DIRS include
+  LIBRARIES LlcpRos
+  CATKIN_DEPENDS roscpp mrs_msgs
+  DEPENDS Eigen
+  )
+
+include_directories(
+  include
+  mrs_llcp
+  ${catkin_INCLUDE_DIRS}
+  )
+
+add_library(llcp
+  mrs_llcp/llcp.c
+)
+
+
+add_library(MrsLlcpRos src/llcp_ros.cpp src/serial_port.cpp src/LAMD_data.cpp)
+
+target_link_libraries(MrsLlcpRos
+  llcp
+  ${catkin_LIBRARIES}
+  )
+
+target_link_libraries(MrsLlcpRos ${catkin_LIBRARIES})

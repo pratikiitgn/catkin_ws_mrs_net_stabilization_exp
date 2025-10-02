@@ -1,0 +1,10 @@
+<library path="lib/libMrsLlcpRos">
+  <class name="mrs_llcp_ros/MrsLlcpRos" type="mrs_llcp_ros::MrsLlcpRos" base_class_type="nodelet::Nodelet">
+    <description>MrsLlcpRos nodelet</description>
+  </class>
+  <class name="mrs_llcp_ros/LAMDData"
+         type="mrs_llcp_ros::LAMDData"
+         base_class_type="nodelet::Nodelet">
+    <description>Nodelet to read and display CAM device heartbeat data from LLCP</description>
+  </class>
+</library>
