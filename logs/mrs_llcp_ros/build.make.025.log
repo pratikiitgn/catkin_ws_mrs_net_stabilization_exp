@@ -1,5 +1,0 @@
-[ 33%] Built target llcp
-[35m[1mScanning dependencies of target MrsLlcpRos[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o[0m
-[ 66%] [32m[1mLinking CXX shared library /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so[0m
-[100%] Built target MrsLlcpRos

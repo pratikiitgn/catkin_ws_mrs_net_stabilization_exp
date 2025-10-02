@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libllcp.so -o /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libllcp.so CMakeFiles/llcp.dir/mrs_llcp/llcp.c.o 

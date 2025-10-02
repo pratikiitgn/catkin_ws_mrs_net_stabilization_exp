@@ -1,6 +1,0 @@
-devel_space: /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel
-install: false
-install_space: /home/mrs/catkin_ws_mrs_net_stabilization_exp/install
-profile: reldeb
-source_space: /home/mrs/catkin_ws_mrs_net_stabilization_exp/src
-workspace: /home/mrs/catkin_ws_mrs_net_stabilization_exp
