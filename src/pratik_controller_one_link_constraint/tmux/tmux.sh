@@ -53,12 +53,12 @@ input=(
 '
   'LAMD' 'waitForHw; roslaunch mrs_llcp_ros llcp.launch
 '
-#   'trajectory_load' 'waitForTakeoff; roslaunch mrs_uav_trajectory_loader load.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
-# '  
-#   'trajectory_goto_start' 'history -s roslaunch mrs_uav_trajectory_loader goto_start.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
-# ' 
-#   'trajectory_start_tracking' 'history -s roslaunch mrs_uav_trajectory_loader start_tracking.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
-# '
+  'trajectory_load' 'waitForTakeoff; roslaunch mrs_uav_trajectory_loader load.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
+'  
+  'trajectory_goto_start' 'history -s roslaunch mrs_uav_trajectory_loader goto_start.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
+' 
+  'trajectory_start_tracking' 'history -s roslaunch mrs_uav_trajectory_loader start_tracking.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
+'
 # do NOT modify the command list below
   'EstimDiag' 'waitForHw; rostopic echo /'"$UAV_NAME"'/estimation_manager/diagnostics
 '

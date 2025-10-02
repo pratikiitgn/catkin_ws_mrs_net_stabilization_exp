@@ -434,7 +434,19 @@ bool ControllerOneLinkConstraint::initialize(const ros::NodeHandle& nh, std::sha
   shopts.queue_size         = 10;
   shopts.transport_hints    = ros::TransportHints().tcpNoDelay();
 
-  sh_link_states           = mrs_lib::SubscribeHandler<nav_msgs::Odometry>(shopts, "/sim_one_link_constraint/uav1/link_state",
+  // Get UAV name from parameter or environment variable
+  std::string uav_name;
+  if (!nh.getParam("uav_name", uav_name)) {
+    const char* uav_env = std::getenv("UAV_NAME");
+    uav_name = uav_env ? uav_env : "uav1";
+  }
+
+  std::string topic_name_link_state_publisher     = "/" + uav_name + "/link_state";
+
+  // sh_link_states           = mrs_lib::SubscribeHandler<nav_msgs::Odometry>(shopts, "/sim_one_link_constraint/uav1/link_state",
+  //                                                                                           &ControllerOneLinkConstraint::callback_link_states, this);
+
+  sh_link_states           = mrs_lib::SubscribeHandler<nav_msgs::Odometry>(shopts, topic_name_link_state_publisher,
                                                                                             &ControllerOneLinkConstraint::callback_link_states, this);
 
   ph_CAC_gains_values         = mrs_lib::PublisherHandler<nav_msgs::Odometry>(nh_, "/link_attitude_gains", 250, false);
@@ -733,9 +745,6 @@ ControllerOneLinkConstraint::ControlOutput ControllerOneLinkConstraint::updateAc
 
   q_link            = R * qb_link;
   q_dot_link        = R * hatmap(Omega) * qb_link + R * qb_dot_link;
-
-  // q_link            = qb_link;
-  // q_dot_link        = qb_dot_link;
 
   // if (Ep.norm() > 1.0)
   // {
@@ -1361,11 +1370,12 @@ std::optional<mrs_msgs::HwApiAttitudeRateCmd> ControllerOneLinkConstraint::attit
 
 void ControllerOneLinkConstraint::callback_link_states(const nav_msgs::Odometry::ConstPtr msg) {
 
-  alpha                         = msg->pose.pose.position.x;
-  // alpha_dot                     = msg->twist.twist.linear.x;
-
-  double alpha_dot_filter       = 0.85;       // smoother: 0.7-0.99
-  alpha_dot                     = alpha_dot_filter * alpha_dot    + (1.0 - alpha_dot_filter) * msg->twist.twist.linear.x;;
+    msg->pose.pose.position.x;
+    msg->pose.pose.position.y;
+    msg->pose.pose.position.z;
+    msg->twist.twist.linear.x;
+    msg->twist.twist.linear.y;
+    msg->twist.twist.linear.z;
 
 }
 

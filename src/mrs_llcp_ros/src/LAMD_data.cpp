@@ -174,11 +174,13 @@ private:
       return;
     }
 
-    int offset_encoder_1 = 2361 + 486;
+    // int offset_encoder_1        = 2361 + 486;
 
     raw_encoder_1_data          = hb.servo1_pos;
+    int offset_encoder_1        = 1820;
+
     int offsetted_encoder_1     = hb.servo1_pos - offset_encoder_1;
-    encoder_1_in_deg_           = static_cast<float>(offsetted_encoder_1 * 0.0878906);
+    encoder_1_in_deg_           = - static_cast<float>(offsetted_encoder_1 * 0.0878906);
     encoder_1_in_rad_           = encoder_1_in_deg_ * M_PI / 180.0;
 
     // /- Publish link state data  --------------------------------------
@@ -189,6 +191,7 @@ private:
     raw_encoder_state_odom.pose.pose.position.x     = hb.servo1_pos;
     raw_encoder_state_odom.pose.pose.position.y     = encoder_1_in_deg_;
     raw_encoder_state_odom.pose.pose.position.z     = encoder_1_in_rad_;
+    pub_raw_encoder_data.publish(raw_encoder_state_odom);
 
     // NODELET_INFO_STREAM_THROTTLE(0.5,"Encoder 1 (deg): " << encoder_1_in_deg_);
 
@@ -350,8 +353,8 @@ void onInit() override {
   std::string topic_name_link_state_publisher     = "/" + uav_name + "/link_state";
   std::string topic_name_raw_encoder_data         = "/" + uav_name + "/raw_encoder_state";
 
-  pub_link_state          = nh.advertise<nav_msgs::Odometry>("link_state", 1);
-  pub_raw_encoder_data    = nh.advertise<nav_msgs::Odometry>("raw_encoder_state", 1);
+  pub_link_state          = nh.advertise<nav_msgs::Odometry>(topic_name_link_state_publisher, 1);
+  pub_raw_encoder_data    = nh.advertise<nav_msgs::Odometry>(topic_name_raw_encoder_data, 1);
 
   NODELET_INFO("LAMDData nodelet started.");
 }

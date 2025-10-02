@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/LAMD_data_proper_calculation.cpp', needed by 'CMakeFiles/MrsLlcpRos.dir/src/LAMD_data_proper_calculation.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:2719: CMakeFiles/MrsLlcpRos.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
