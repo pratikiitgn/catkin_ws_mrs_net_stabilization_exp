@@ -51,7 +51,7 @@ input=(
 '
   'AutoStart' 'waitForHw; roslaunch mrs_uav_autostart automatic_start.launch
 '
-  'CAM' 'waitForHw; roslaunch mrs_llcp_ros llcp.launch
+  'LAMD' 'waitForHw; roslaunch mrs_llcp_ros llcp.launch
 '
 #   'trajectory_load' 'waitForTakeoff; roslaunch mrs_uav_trajectory_loader load.launch config:=./config/trajectory_loader.yaml path:=`rospack find pratik_controller_one_link_constraint`/trajectories
 # '  

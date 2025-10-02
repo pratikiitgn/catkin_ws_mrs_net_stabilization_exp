@@ -1546,32 +1546,32 @@ mrs_llcp/llcp.c.s:
 	$(MAKE) -f CMakeFiles/llcp.dir/build.make CMakeFiles/llcp.dir/mrs_llcp/llcp.c.s
 .PHONY : mrs_llcp/llcp.c.s
 
-src/CAM_device_data.o: src/CAM_device_data.cpp.o
+src/LAMD_data.o: src/LAMD_data.cpp.o
 
-.PHONY : src/CAM_device_data.o
+.PHONY : src/LAMD_data.o
 
 # target to build an object file
-src/CAM_device_data.cpp.o:
-	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o
-.PHONY : src/CAM_device_data.cpp.o
+src/LAMD_data.cpp.o:
+	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o
+.PHONY : src/LAMD_data.cpp.o
 
-src/CAM_device_data.i: src/CAM_device_data.cpp.i
+src/LAMD_data.i: src/LAMD_data.cpp.i
 
-.PHONY : src/CAM_device_data.i
+.PHONY : src/LAMD_data.i
 
 # target to preprocess a source file
-src/CAM_device_data.cpp.i:
-	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.i
-.PHONY : src/CAM_device_data.cpp.i
+src/LAMD_data.cpp.i:
+	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.i
+.PHONY : src/LAMD_data.cpp.i
 
-src/CAM_device_data.s: src/CAM_device_data.cpp.s
+src/LAMD_data.s: src/LAMD_data.cpp.s
 
-.PHONY : src/CAM_device_data.s
+.PHONY : src/LAMD_data.s
 
 # target to generate assembly for a file
-src/CAM_device_data.cpp.s:
-	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.s
-.PHONY : src/CAM_device_data.cpp.s
+src/LAMD_data.cpp.s:
+	$(MAKE) -f CMakeFiles/MrsLlcpRos.dir/build.make CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.s
+.PHONY : src/LAMD_data.cpp.s
 
 src/llcp_ros.o: src/llcp_ros.cpp.o
 
@@ -1747,9 +1747,9 @@ help:
 	@echo "... mrs_llcp/llcp.o"
 	@echo "... mrs_llcp/llcp.i"
 	@echo "... mrs_llcp/llcp.s"
-	@echo "... src/CAM_device_data.o"
-	@echo "... src/CAM_device_data.i"
-	@echo "... src/CAM_device_data.s"
+	@echo "... src/LAMD_data.o"
+	@echo "... src/LAMD_data.i"
+	@echo "... src/LAMD_data.s"
 	@echo "... src/llcp_ros.o"
 	@echo "... src/llcp_ros.i"
 	@echo "... src/llcp_ros.s"

@@ -83,31 +83,31 @@ CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/serial_port.cpp -o CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.s
 
-CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o: CMakeFiles/MrsLlcpRos.dir/flags.make
-CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o: /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp
+CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o: CMakeFiles/MrsLlcpRos.dir/flags.make
+CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o: /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/LAMD_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/LAMD_data.cpp
 
-CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp > CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.i
+CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/LAMD_data.cpp > CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.i
 
-CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp -o CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.s
+CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/LAMD_data.cpp -o CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.s
 
 # Object files for target MrsLlcpRos
 MrsLlcpRos_OBJECTS = \
 "CMakeFiles/MrsLlcpRos.dir/src/llcp_ros.cpp.o" \
 "CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.o" \
-"CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o"
+"CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o"
 
 # External object files for target MrsLlcpRos
 MrsLlcpRos_EXTERNAL_OBJECTS =
 
 /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: CMakeFiles/MrsLlcpRos.dir/src/llcp_ros.cpp.o
 /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.o
-/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o
+/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: CMakeFiles/MrsLlcpRos.dir/src/LAMD_data.cpp.o
 /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: CMakeFiles/MrsLlcpRos.dir/build.make
 /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libllcp.so
 /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/libMrsLlcpRos.so: /opt/ros/noetic/lib/libMrsLib_SafetyZone.so
