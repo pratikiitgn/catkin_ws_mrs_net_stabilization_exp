@@ -1,0 +1,8 @@
+prefix=/home/mrs/catkin_ws_mrs_net_stabilization_exp/install
+
+Name: pratik_controller_one_link_constraint
+Description: Description of pratik_controller_one_link_constraint
+Version: 1.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lControllerOneLinkConstraint
+Requires: cmake_modules roscpp rospy pluginlib geometry_msgs dynamic_reconfigure mrs_uav_managers mrs_msgs mrs_lib

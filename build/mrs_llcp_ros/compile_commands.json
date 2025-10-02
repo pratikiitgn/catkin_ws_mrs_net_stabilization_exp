@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros",
+  "command": "/usr/bin/cc -DLLCP_LITTLE_ENDIAN -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mrs_llcp_ros\\\" -Dllcp_EXPORTS -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/include -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/llcp.dir/mrs_llcp/llcp.c.o   -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp/llcp.c",
+  "file": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp/llcp.c"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros",
+  "command": "/usr/bin/c++  -DLLCP_LITTLE_ENDIAN -DMrsLlcpRos_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mrs_llcp_ros\\\" -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/include -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O2 -g -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/MrsLlcpRos.dir/src/llcp_ros.cpp.o -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/llcp_ros.cpp",
+  "file": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/llcp_ros.cpp"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros",
+  "command": "/usr/bin/c++  -DLLCP_LITTLE_ENDIAN -DMrsLlcpRos_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mrs_llcp_ros\\\" -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/include -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O2 -g -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/MrsLlcpRos.dir/src/serial_port.cpp.o -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/serial_port.cpp",
+  "file": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/serial_port.cpp"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros",
+  "command": "/usr/bin/c++  -DLLCP_LITTLE_ENDIAN -DMrsLlcpRos_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mrs_llcp_ros\\\" -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/include -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O2 -g -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/MrsLlcpRos.dir/src/CAM_device_data.cpp.o -c /home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp",
+  "file": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/src/CAM_device_data.cpp"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DLLCP_LITTLE_ENDIAN -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DLLCP_LITTLE_ENDIAN -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DLLCP_LITTLE_ENDIAN -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DLLCP_LITTLE_ENDIAN -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]

@@ -1,0 +1,32 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~kq_1" : \b [double] kq 1 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~kq_2" : \b [double] kq 2 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~kq_3" : \b [double] kq 3 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~kq_dot_1" : \b [double] kq_dot 1 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~kq_dot_2" : \b [double] kq_dot 2 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~kq_dot_3" : \b [double] kq_dot 3 gains min: 0.0, default: 0.0, max: 100.0
+- \b "~gamma_p_LAC" : \b [double] gamma_p_LAC min: 0.0, default: 0.0, max: 100.0
+- \b "~gamma_d_LAC" : \b [double] gamma_d_LAC min: 0.0, default: 0.0, max: 100.0
+- \b "~kappa_p_LAC" : \b [double] kappa_p_LAC min: 0.0, default: 0.0, max: 20.0
+- \b "~kappa_d_LAC" : \b [double] kappa_d_LAC min: 0.0, default: 0.0, max: 20.0
+- \b "~LAC_Auto_Gain_Tuner_enabled" : \b [bool] LAC_Auto_Gain_Tuner_enabled min: False, default: True, max: True
+- \b "~roll" : \b [double] Desired roll min: -3.14, default: 0.0, max: 3.14
+- \b "~pitch" : \b [double] Desired pitch min: -3.14, default: 0.0, max: 3.14
+- \b "~yaw" : \b [double] Desired pitch min: -3.14, default: 0.0, max: 3.14
+- \b "~kpx" : \b [double] Position gain in x min: 0.0, default: 100.0, max: 150.0
+- \b "~kpy" : \b [double] Position gain in y min: 0.0, default: 100.0, max: 150.0
+- \b "~kdx" : \b [double] Velocity gain in x min: 0.0, default: 25.0, max: 50.0
+- \b "~kdy" : \b [double] Velocity gain in y min: 0.0, default: 25.0, max: 50.0
+- \b "~kpz" : \b [double] Position gain in z min: 0.0, default: 55.0, max: 200.0
+- \b "~kdz" : \b [double] Velocity gain in z min: 0.0, default: 45.0, max: 200.0
+- \b "~kq_roll_pitch" : \b [double] Attitude constant for intrinsic roll and pitch control min: 0.0, default: 0.0, max: 20.0
+- \b "~kq_yaw" : \b [double] Attitude constant for intrinsic yaw control min: 0.0, default: 0.0, max: 40.0
+- \b "~km" : \b [double] Integral constant for mass min: 0.0, default: 0.0, max: 2.0
+- \b "~km_lim" : \b [double] Mass integral limit min: 0.0, default: 0.0, max: 50.0
+- \b "~force" : \b [double] Desired force min: -10.0, default: 0.0, max: 10.0
+- \b "~jerk_feedforward" : \b [bool] Jerk feedforward min: False, default: True, max: True
+- \b "~pitch_roll_heading_rate_compensation" : \b [bool] Pitch/Roll rate -> heading rate compensation min: False, default: True, max: True
+

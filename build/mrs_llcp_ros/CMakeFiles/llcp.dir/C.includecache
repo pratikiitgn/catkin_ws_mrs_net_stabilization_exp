@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp/llcp.c
+llcp.h
+-
+
+/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/mrs_llcp/llcp.h
+stdint.h
+-
+string.h
+-
+stdbool.h
+-
+stdio.h
+-
+

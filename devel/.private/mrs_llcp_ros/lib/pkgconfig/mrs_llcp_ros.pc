@@ -1,0 +1,8 @@
+prefix=/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros
+
+Name: mrs_llcp_ros
+Description: Description of mrs_llcp_ros
+Version: 0.0.1
+Cflags: -I/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lLlcpRos
+Requires: roscpp mrs_msgs
