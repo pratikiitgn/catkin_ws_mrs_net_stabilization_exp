@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/mrs/catkin_ws_mrs_net_stabilization_exp/build/mrs_llcp_ros'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/mrs_llcp_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/mrs/catkin_ws_mrs_net_stabilization_exp/src/mrs_llcp_ros:$ROS_PACKAGE_PATH"

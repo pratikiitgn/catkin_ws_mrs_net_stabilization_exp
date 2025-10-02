@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mrs/catkin_ws_mrs_net_stabilization_exp/devel/.private/pratik_controller_one_link_constraint/setup.sh
